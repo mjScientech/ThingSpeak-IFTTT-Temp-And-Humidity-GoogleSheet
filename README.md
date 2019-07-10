@@ -160,13 +160,14 @@ The library cannot currently be used with hardware based on the ENC28J60 chip �
   - Create trigger.
   - Now the trigger is created , for resulting action click That.
   ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event9.JPG)
-  -  Enter email in the search bar, and select the Email box.
- ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event10.JPG)
- - Now choose action.Select the Send me an email box and then enter the message information.
-  ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event11.JPG)
-  ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event12.JPG)
+  -  Enter “Google Sheets”  in the search bar, and select the “Google Sheets”  box.
+ ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/sheets1.JPG)
+ - If you have not connected to Google Sheet ,then connect it first.Now choose action.Select add a row to spreadsheet.
+  ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/sheets2.JPG)
+  
   - Retrieve your Webhooks trigger information. Select My Applets , Services and search for Webhooks. Click Webhooks and Documentation button. You see your key and the format for sending a request. Enter the event name. The event name for this example is VibrationAndTempData.You can test the service using the test button or by pasting the URL into your browser. 
-  ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/document!.JPG)
+  ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/sheets6.JPG)
+  ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/timecontrol4.JPG)
   
   ## Create a MATLAB Analysis
   You can use the result of your analysis to trigger web requests, such as writing a trigger to IFTTT.
