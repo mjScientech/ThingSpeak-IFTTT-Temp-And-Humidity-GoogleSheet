@@ -164,7 +164,10 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
  ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/sheets1.JPG)
  - If you have not connected to Google Sheet ,then connect it first.Now choose action.Select add a row to spreadsheet.
   ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/sheets2.JPG)
-  
+ -  Then, complete the action fields.
+  ![alt tag](https://github.com/ncdcommunity/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/sheets4.JPG)
+ -  Your applet should be created after you press the Finish 
+   ![alt tag](https://github.com/ncdcommunity/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/sheet5.JPG)
   - Retrieve your Webhooks trigger information. Select My Applets , Services and search for Webhooks. Click Webhooks and Documentation button. You see your key and the format for sending a request. Enter the event name. The event name for this example is VibrationAndTempData.You can test the service using the test button or by pasting the URL into your browser. 
   ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/sheets6.JPG)
   ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/timecontrol4.JPG)
