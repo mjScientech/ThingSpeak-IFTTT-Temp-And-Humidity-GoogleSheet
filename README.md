@@ -187,9 +187,8 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
   - Click Apps,TimeControl, and then click New TimeControl.
     ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/timecontrol.JPG)
   
-    
    - Save your TimeControl.
-    ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/analysis7.JPG)
+   
     ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/timecontrol2.JPG)
 # OUTPUT
 - At last  data is  retrieved in Google Sheet.
