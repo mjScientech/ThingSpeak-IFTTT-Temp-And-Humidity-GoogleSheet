@@ -11,10 +11,6 @@ The ESP32 makes it easy to use the Arduino IDE and the Arduino Wire Language for
 - [IoT Long Range Wireless Vibration And Temperature Sensor](https://store.ncd.io/product/iot-long-range-wireless-vibration-and-temperature-sensor/)
 The IoT long range wireless vibration and temperature sensor is battery operated and wireless, meaning that current or communication wires need not be pulled to get it up and operating. It tracks the vibration information of your machine constantly and captures and operate hours at full resolution together with other temperature parameters.In this we are using NCD’s long range IoT Industrial wireless vibration and temperature sensor, boasting up to a 2-mile range using a wireless mesh networking architecture.
 
-- [I2C Cable](https://store.ncd.io/product/i2c-cable/)
-NodeLynk I2C cables with 4-color wire and latching connectors to link sensors and controllers together in any combination.
-
-- [PARTICLE ELECTRON OR PHOTON COMPATIBLE I2C SHIELD](https://shop.controleverything.com/products/i2c-breakout-for-particle-electron-or-particle-photon)
 - [Long Range Wireless Mesh Modem with USB Interface](https://store.ncd.io/product/zigbee-coordinator-long-range-wireless-mesh-modem-with-usb-interface/)
 
 Software Used:
