@@ -117,7 +117,7 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
    ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-Temp-And-Humidity-GoogleSheet/blob/master/google1.JPG)
   - Retrieve your Webhooks trigger information. Select My Applets , Services and search for Webhooks. Click Webhooks and Documentation button. You see your key and the format for sending a request. Enter the event name. The event name for this example is VibrationAndTempData.You can test the service using the test button or by pasting the URL into your browser. 
   ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/sheets6.JPG)
-  ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-ESP32-Predictive-Machine-Monitoring/blob/master/timecontrol4.JPG)
+  ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Temp-And-Humidity/blob/master/documentation.JPG)
   
  ## Create a MATLAB Analysis
   You can use the result of your analysis to trigger web requests, such as writing a trigger to IFTTT.
