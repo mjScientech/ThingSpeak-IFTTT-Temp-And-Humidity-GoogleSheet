@@ -1,24 +1,25 @@
 
-## In this project, we will measure vibration and temperature using NCD vibration and temperature sensor, ESP32, and ThingSpeak.We will also send different temperature and vibration readings to Google Sheet Using ThingSpeak and IFTTT  for analyzing vibration sensor data.
+## In this project, we will measure  temperature and Humidity using NCD  temperature and humidity sensor, ESP32, and ThingSpeak.We will also send different temperature and Humidity readings to Google Sheet Using ThingSpeak and IFTTT  for analyzing Temp and Humidity  sensor data.
 ![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/Vibration-Temp-NO-Zigmo-600x400.png)
 
-Vibration is truly a to and fro movement—or oscillation—of machines and components in motorized gadgets. Vibration in the industrial system may be a symptom, or motive, of a hassle, or it can be associated with everyday operation. For instance, oscillating sanders and vibratory tumblers depend upon vibration to feature. Internal combustion engines and tools drive, then again, revel in a sure amount of unavoidable vibration. Vibration can imply a hassle and if left unchecked can cause harm or expedited deterioration. Vibration can be resulting from one or extra factors at any given time, the maximum not unusual being an imbalance, misalignment, put on, and looseness.This damage can be minimize by analyzing Temperature and Vibration Data on ThingSpeak using esp32 and NCD wireless vibration and temperature sensor.
+![alt tag](https://github.com/ncdcommunity/ThingSpeak-ESP32-and-Long-Range-Wireless-Temp-and-Humidity-Sensor/blob/master/imgonline-com-ua-twotoone-nvNb5VFjmc.jpg)
 
-## Hardware :
-- [ESP-32](https://store.ncd.io/product/esp32-iot-wifi-ble-module-with-integrated-usb/)
-The ESP32 makes it easy to use the Arduino IDE and the Arduino Wire Language for IoT applications. This ESp32 IoT Module combines Wi-Fi, Bluetooth, and Bluetooth BLE for a variety of diverse applications. This module comes fully-equipped with 2 CPU cores that can be controlled and powered individually, and with an adjustable clock frequency of 80 MHz to 240 MHz. This ESP32 IoT WiFi BLE Module with Integrated USB is designed to fit in all ncd.io IoT products.
+**In this tutorial, we will measure different temperature and humidity data using Temp and humidity sensor. You will also learn how to send this data to ThingSpeak. So that you can create a temp alert in your mail at particular value.**
 
-- [IoT Long Range Wireless Vibration And Temperature Sensor](https://store.ncd.io/product/iot-long-range-wireless-vibration-and-temperature-sensor/)
-The IoT long range wireless vibration and temperature sensor is battery operated and wireless, meaning that current or communication wires need not be pulled to get it up and operating. It tracks the vibration information of your machine constantly and captures and operate hours at full resolution together with other temperature parameters.In this we are using NCD’s long range IoT Industrial wireless vibration and temperature sensor, boasting up to a 2-mile range using a wireless mesh networking architecture.
 
-- [Long Range Wireless Mesh Modem with USB Interface](https://store.ncd.io/product/900hp-s3b-long-range-wireless-mesh-modem-with-usb-interface/)
+**Hardware** :
+- **[ESP-32](https://store.ncd.io/product/esp32-iot-wifi-ble-module-with-integrated-usb/)**:The ESP32 makes it easy to use the Arduino IDE and the Arduino Wire Language for IoT applications. This ESp32 IoT Module combines Wi-Fi, Bluetooth, and Bluetooth BLE for a variety of diverse applications. This module comes fully-equipped with 2 CPU cores that can be controlled and powered individually, and with an adjustable clock frequency of 80 MHz to 240 MHz. This ESP32 IoT WiFi BLE Module with Integrated USB is designed to fit in all ncd.io IoT products.Monitor sensors and control relays, FETs, PWM controllers, solenoids, valves, motors and much more from anywhere in the world using a web page or a dedicated server.We manufactured our own version of the ESP32 to fit into NCD IoT devices, offering more expansion options than any other device in the world! Integrated USB port allows easy programming of the ESP32. The ESP32 IoT WiFi BLE Module is an incredible platform for IoT application development. This ESP32 IoT WiFi BLE Module can be programmed using Arduino IDE.
 
-Software Used:
+- **[IoT Long Range Wireless  Temperature And Humidity  Sensor](https://store.ncd.io/product/industrial-long-range-wireless-temperature-humidity-sensor/)**:Industrial Long Range Wireless Temperature Humidity Sensor. Grade with a Sensor Resolution of ±1.7%RH ±0.5°C .Up to 500,000 Transmissions from 2 AA Batteries.Measures -40°C to 125°C with Batteries that Survive these Ratings.Superior 2-Mile LOS Range & 28 miles with High-Gain Antennas.Interface to Raspberry Pi, Microsoft Azure, Arduino and More
+
+- **[Long Range Wireless Mesh Modem with USB Interface](https://store.ncd.io/product/900hp-s3b-long-range-wireless-mesh-modem-with-usb-interface/)**
+
+**Software Used:**
 - Arduino IDE
-- [ThigSpeak](https://thingspeak.com/)
-- [IFTTT](https://ifttt.com/discover)
+- ThingSpeak
+- IFTTT
 
-Library Used:
+**Library Used:**
 - PubSubClient Library
 - Wire.h
 
@@ -73,30 +74,21 @@ The library cannot currently be used with hardware based on the ENC28J60 chip �
 - Wire.read()
   Receive 1 byte.
 
-# Steps to send data to labview vibration and temperature platform using IoT Long Range Wireless Vibration And Temperature Sensor and  Long Range Wireless Mesh Modem with USB Interface-
-
-- First, we need a Labview utility application which is [ncd.io Wireless Vibration and Temperature Sensor.exe](https://github.com/ncdcommunity/Industrial-IoT-Vibration-Temperature-Sensor) file on which data can be viewed.
-
-- This Labview software will work with ncd.io wireless Vibration Temperature sesnor only
-
-- To use this UI, you will need to install following drivers Install run time engine from here [64bit](http://www.ni.com/download/labview-run-time-engine-2017/6821/en/)
-
-- [32 bit](http://www.ni.com/download/labview-run-time-engine-2017/6822/en/)
-
-- Install [NI Visa Driver](http://www.ni.com/download/ni-visa-run-time-engine/6647/en/)
-
-- Install [LabVIEW Run-Time Engine]( http://www.ni.com/download/labview-run-time-engine-2017-sp1/7191/en/) and [NI-Serial Runtime]  (http://www.ni.com/download/ni-serial-17.0/6613/en/)
-
-- [Getting started guide for this product.](https://ncd.io/long-range-iot-wireless-vibration-sensor-getting-started/)
 
 ##  Uploading the code  to ESP32 using Arduino IDE:
+
+- **Before uploading the code you can view the working of this sensor at a given [link](https://github.com/ncdcommunity/Industrial-Wireless-IoT-Temperature-Humidity-Sensor?source=post_page---------------------------).**
 - **Download and include the PubSubClient Library and Wire.h Library.**
 - **You must assign your API key , SSID (WiFi Name) and Password of the available network.**
-- **Compile and upload the  [ESP32-ThinSpeak.ino](https://github.com/mjScientech/IoT--ThingSpeak--ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/Esp32-Thingspeak.ino) code.**
+- **Compile and upload the  [Temp-ThinSpeak.ino](https://github.com/mjScientech/ThingSpeak-ESP32-and-Long-Range-Wireless-Temp-and-Humidity-Sensor/blob/master/Thingspeak_Temp.ino) code.**
 - **To verify the connectivity of the device and the data sent, open the serial monitor.If no response is seen, try unplugging your ESP32 and then plugging it again. Make sure the baud rate of the Serial monitor is set to the same one specified in your code 115200.**
 
 ## Serial monitor output.
-![alt tag](https://github.com/mjScientech/IoT--ThingSpeak--ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/serial%20output2.JPG)
+![alt tag](https://github.com/mjScientech/ThingSpeak-ESP32-and-Long-Range-Wireless-Temp-and-Humidity-Sensor/blob/master/serialmonitor.JPG)
+
+## OUTPUT
+
+![alt tag](https://github.com/mjScientech/ThingSpeak-ESP32-and-Long-Range-Wireless-Temp-and-Humidity-Sensor/blob/master/output1.JPG)
 
 ## Making the ThingSpeak work:
 - **Create the account on [ThigSpeak](https://thingspeak.com/).**
