@@ -1,11 +1,6 @@
 
 ## In this project, we will measure  temperature and Humidity using NCD  temperature and humidity sensor, ESP32, and ThingSpeak.We will also send different temperature and Humidity readings to Google Sheet Using ThingSpeak and IFTTT  for analyzing Temp and Humidity  sensor data.
-![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/Vibration-Temp-NO-Zigmo-600x400.png)
-
-![alt tag](https://github.com/ncdcommunity/ThingSpeak-ESP32-and-Long-Range-Wireless-Temp-and-Humidity-Sensor/blob/master/imgonline-com-ua-twotoone-nvNb5VFjmc.jpg)
-
-**In this tutorial, we will measure different temperature and humidity data using Temp and humidity sensor. You will also learn how to send this data to ThingSpeak. So that you can create a temp alert in your mail at particular value.**
-
+![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-Temp-And-Humidity-GoogleSheet/blob/master/1.jpg)
 
 **Hardware** :
 - **[ESP-32](https://store.ncd.io/product/esp32-iot-wifi-ble-module-with-integrated-usb/)**:The ESP32 makes it easy to use the Arduino IDE and the Arduino Wire Language for IoT applications. This ESp32 IoT Module combines Wi-Fi, Bluetooth, and Bluetooth BLE for a variety of diverse applications. This module comes fully-equipped with 2 CPU cores that can be controlled and powered individually, and with an adjustable clock frequency of 80 MHz to 240 MHz. This ESP32 IoT WiFi BLE Module with Integrated USB is designed to fit in all ncd.io IoT products.Monitor sensors and control relays, FETs, PWM controllers, solenoids, valves, motors and much more from anywhere in the world using a web page or a dedicated server.We manufactured our own version of the ESP32 to fit into NCD IoT devices, offering more expansion options than any other device in the world! Integrated USB port allows easy programming of the ESP32. The ESP32 IoT WiFi BLE Module is an incredible platform for IoT application development. This ESP32 IoT WiFi BLE Module can be programmed using Arduino IDE.
