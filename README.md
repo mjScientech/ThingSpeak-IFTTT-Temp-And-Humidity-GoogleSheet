@@ -1,5 +1,5 @@
 
-## In this project, we will measure  temperature and Humidity using NCD  temperature and humidity sensor, ESP32, and ThingSpeak.We will also send different Temperature and Humidity readings to Google Sheet Using ThingSpeak and IFTTT  for analyzing Temp and Humidity  sensor data.
+## In this project, we will measure  Temperature and Humidity using NCD  temperature and humidity sensor, ESP32, and ThingSpeak.We will also send different Temperature and Humidity readings to Google Sheet Using ThingSpeak and IFTTT  for analyzing Temp and Humidity  sensor data.
 ![alt tag](https://github.com/mjScientech/ThingSpeak-IFTTT-Temp-And-Humidity-GoogleSheet/blob/master/1.jpg)
 
 **Hardware** :
