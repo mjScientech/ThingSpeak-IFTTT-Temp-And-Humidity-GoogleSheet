@@ -86,6 +86,7 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 ![alt tag](https://github.com/mjScientech/ThingSpeak-ESP32-and-Long-Range-Wireless-Temp-and-Humidity-Sensor/blob/master/output1.JPG)
 
 ## Create an IFTTT Applet
+- To send data to Thingspeak you can view it at this [link](https://github.com/ncdcommunity/ThingSpeak-ESP32-and-Long-Range-Wireless-Temp-and-Humidity-Sensor).
 - IFTTT is a web service that lets you create applets that act in response to another action. You can use the IFTTT Webhooks service to create web requests to trigger an action. The incoming action is an HTTP request to the web server, and the outgoing action is an email message.
 - First create  an IFTTT account.
 - Create an applet. Select My Applets.
